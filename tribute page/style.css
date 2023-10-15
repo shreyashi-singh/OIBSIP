@@ -1,0 +1,90 @@
+/* Reset some default styles for better consistency */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.left img {
+    width: 450px;
+    height: 420px;
+    padding: 20px 20px;
+}
+
+.right h1{
+    font-size: 70px;
+    font-weight: 700;
+    padding-top: 130px;
+
+}
+ .right p{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px;
+    gap: 160px;
+}
+
+nav li {
+    margin: 5px 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+    gap: 20px;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+section h2{
+    font-size: 30px;
+    /* border-bottom: 2px solid #444; */
+    padding-bottom: 15px;
+}
+section p{
+    font-size: 17px;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #444;
+    color: #fff;
+}
+footer p{
+    font-size: 20px;
+}
+
